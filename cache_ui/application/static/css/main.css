@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#4695b4;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .header {
+    background-image: url('../images/header-background.jpg');
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+  }
+  .deletebutton {
+    opacity: 0;
+    background-image:url('../images/icons/cross.png');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+  }
+  tr:hover .deletebutton {
+    opacity: 1;
+  }
+
+@media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+    .features {
+      margin: 0;
+    }
+  }
